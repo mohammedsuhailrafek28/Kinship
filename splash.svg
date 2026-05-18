@@ -1,0 +1,70 @@
+<svg width="1284" height="2778" viewBox="0 0 1284 2778" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1284" height="2778" fill="#0D0D0F"/>
+
+  <!-- Ambient glow top-left -->
+  <ellipse cx="160" cy="360" rx="420" ry="420" fill="#7C5CFC" fill-opacity="0.10"/>
+  <!-- Ambient glow bottom-right -->
+  <ellipse cx="1140" cy="2440" rx="360" ry="360" fill="#FF6B52" fill-opacity="0.08"/>
+  <!-- Soft center glow -->
+  <ellipse cx="642" cy="1389" rx="320" ry="320" fill="#7C5CFC" fill-opacity="0.05"/>
+
+  <!-- Logo card with rounded corners -->
+  <rect x="542" y="1209" width="200" height="200" rx="52" fill="url(#logoGradient)"/>
+
+  <!-- Subtle inner shine on logo -->
+  <rect x="542" y="1209" width="200" height="100" rx="52" fill="white" fill-opacity="0.06"/>
+
+  <!-- K letterform - centered in card -->
+  <text
+    x="632"
+    y="1352"
+    font-family="Arial Black, Helvetica, sans-serif"
+    font-size="110"
+    font-weight="900"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="-4"
+  >K</text>
+
+  <!-- App name -->
+  <text
+    x="642"
+    y="1472"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="48"
+    font-weight="700"
+    fill="#F5F4F2"
+    text-anchor="middle"
+    letter-spacing="8"
+  >KINSHIP</text>
+
+  <!-- Tagline -->
+  <text
+    x="642"
+    y="1526"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="24"
+    font-weight="400"
+    fill="#5E5C6E"
+    text-anchor="middle"
+    letter-spacing="1"
+  >where every talent shines</text>
+
+  <!-- Decorative accent dots -->
+  <circle cx="578" cy="1608" r="4" fill="#7C5CFC" fill-opacity="0.7"/>
+  <circle cx="600" cy="1608" r="4" fill="#7C5CFC" fill-opacity="0.45"/>
+  <circle cx="622" cy="1608" r="4" fill="#7C5CFC" fill-opacity="0.2"/>
+  <circle cx="662" cy="1608" r="4" fill="#FF6B52" fill-opacity="0.2"/>
+  <circle cx="684" cy="1608" r="4" fill="#FF6B52" fill-opacity="0.45"/>
+  <circle cx="706" cy="1608" r="4" fill="#FF6B52" fill-opacity="0.7"/>
+
+  <defs>
+    <linearGradient id="logoGradient" x1="542" y1="1209" x2="742" y2="1409" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#9F7AEA"/>
+      <stop offset="50%"  stop-color="#7C5CFC"/>
+      <stop offset="100%" stop-color="#4A25CC"/>
+    </linearGradient>
+  </defs>
+</svg>
