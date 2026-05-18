@@ -1,0 +1,36 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded square background -->
+  <rect width="1024" height="1024" rx="220" fill="url(#iconBg)"/>
+
+  <!-- Subtle inner glow overlay -->
+  <rect width="1024" height="1024" rx="220" fill="url(#innerGlow)"/>
+
+  <!-- K letterform - bold, expressive, slightly off-center for visual weight -->
+  <text
+    x="512"
+    y="640"
+    font-family="Arial Black, Helvetica, sans-serif"
+    font-size="620"
+    font-weight="900"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="-20"
+  >K</text>
+
+  <!-- Coral accent dot - top right, energy mark -->
+  <circle cx="820" cy="210" r="64" fill="#FF6B52"/>
+  <circle cx="820" cy="210" r="48" fill="#FF8A6E"/>
+
+  <defs>
+    <linearGradient id="iconBg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#9F7AEA"/>
+      <stop offset="55%"  stop-color="#7C5CFC"/>
+      <stop offset="100%" stop-color="#4A25CC"/>
+    </linearGradient>
+    <radialGradient id="innerGlow" cx="30%" cy="25%" r="60%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="white" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
